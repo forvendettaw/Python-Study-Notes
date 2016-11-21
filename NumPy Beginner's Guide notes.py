@@ -378,18 +378,6 @@ print('pass = ',np.testing.assert_array_less([0,0.12345670,np.nan],[1,0.12345678
 print('pass = ',np.testing.assert_string_equal('Numpy','Numpy'))                    # 比较字符串，区分大小写
 # print('fail = ',np.testing.assert_string_equal('Numpy','numpy'))
 
-#coding:utf-8
-"""
-作者：zhaoxingfeng	日期：2016.8
-说明：看《Python数据分析基础教程：NumPy学习指南（第2版）》所做的笔记
-"""
-import sys
-import time
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib import cm
-import mpl_toolkits.mplot3d
-
 print('------------------第九章：使用 matplotlib 绘图-------------------')
 def Plot1():                                                        # 直方图
     data = np.random.normal(5.0, 3.0, 1000)
