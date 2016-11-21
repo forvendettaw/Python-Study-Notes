@@ -10,7 +10,7 @@ print(member)
 member.extend(['周','武']) #extend
 print(len(member))
 print(member)
-member.insert(1,'拱健婷')  #insert，从0开始
+member.insert(1,'赵云')  #insert，从0开始
 print(member)
 member.remove('赵')        #remove
 print(member)
@@ -108,8 +108,8 @@ def MyFirstFunction():              # 函数用法
 MyFirstFunction()
 def MySecondFunction(name):         # name为形参
     '这里是函数文档,和注释不一样'
-    print(name + ' LOVE 拱健婷')
-MySecondFunction('赵兴锋')          # 传递进来的“赵兴锋”为实参
+    print(name + ' like fly')
+MySecondFunction('birds')          # 传递进来的“birds”为实参
 print(MySecondFunction.__doc__)      # 默认属性
 def add(num1,num2):
     return  (num1 + num2)           # return用法
